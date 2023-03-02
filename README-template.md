@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github.com](https://github.com/Akanni5/nft-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Vercel App](https://nft-preview-card-component-liard-kappa.vercel.app/)
 
 ## My process
 

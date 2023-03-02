@@ -64,12 +64,23 @@ hr{ color: hsl(215, 32%, 27%); }
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all .5s ease-in-out;
 }
+
+#view-icon{
+    display: none;
+    transition: all .5s ease-in;
+}
+
 
 .nft-image div:hover{
     background-color: hsla(178, 100%, 50%, 0.5);
     border-radius: var(--bor-radius);
     cursor: pointer;
+}
+
+.nft-image div:hover #view-icon{
+    display: block;
 }
 
 .desc h1 {
@@ -128,17 +139,17 @@ hr{ color: hsl(215, 32%, 27%); }
     width: 3em;
 }
 
-.creator span{
+.creator a{
     font-size: 1em;
     color: var(--clr-white);
+    text-decoration: none;
 }
-.creator span:hover{
+.creator a:hover{
     color: var(--clr-cyan);
     cursor: pointer;
 }
-.creator span>a{
+.creator a>span{
     color: var(--clr-soft-blue);
-    text-decoration: none;
 }
 
 @media screen and (min-width: 400px) {
